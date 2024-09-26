@@ -1,0 +1,283 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.hero {
+  background-image: url(heading-bg.jpg);
+  width: 100%;
+  height: 85vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 35px;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+header nav {
+  background-color: white;
+  padding: 15px;
+  width: 96%;
+  border-radius: 100px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 100px;
+  position: fixed;
+}
+
+nav label {
+  display: none;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  gap: 25px;
+}
+
+header a {
+  color: rgb(51, 51, 51);
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 8px;
+  font-weight: 600;
+  transition: all 0.2s linear;
+}
+
+header a:hover {
+  background-color: rgb(116, 83, 252);
+  border-radius: 40px;
+  color: white;
+}
+
+.content1 {
+  text-align: center;
+  padding-top: 230px;
+  color: white;
+}
+.content1 h5 {
+  font-size: 19px;
+  font-weight: 400;
+}
+.content1 h6 {
+  font-size: 16px;
+  font-weight: 400;
+}
+.content1 h6 span {
+  color: rgb(116, 83, 252);
+}
+.content1 h1 {
+  font-size: 50px;
+}
+.content1 button {
+  padding: 18px;
+  font-size: 17px;
+  border: none;
+  border-radius: 50px;
+  background-color: rgb(116, 83, 252);
+  transition: all 0.2s linear;
+}
+.content1 button a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+.content1 button:hover {
+  background-color: white;
+}
+.content1 button:hover a {
+  color: rgb(116, 83, 252);
+}
+.content1 .b2 {
+  background-color: transparent;
+  border: 1px solid rgb(116, 83, 252);
+  transition: all 0.2s linear;
+}
+.content1 .b2:hover {
+  background-color: rgb(116, 83, 252);
+}
+.content1 .b2:hover a {
+  color: white;
+}
+
+.content2main1 {
+  background-image: url(dark-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  font-size: 17px;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  display: flex;
+  padding-top: 80px;
+  justify-content: center;
+  justify-content: space-evenly;
+  padding-bottom: 200px;
+  flex-wrap: wrap;
+}
+.content2main1 .c2img img {
+  border-radius: 20px;
+}
+.content2main1 .c2c {
+  padding-top: 80px;
+  width: 650px;
+  text-align: start;
+}
+.content2main1 .c2c img {
+  border-radius: 100%;
+}
+.content2main1 .c2c h4 a {
+  color: rgb(116, 83, 252);
+}
+.content2main1 .c2c h4 {
+  font-size: 15px;
+}
+.content2main1 .c2c h3 {
+  font-size: 15px;
+}
+.content2main1 .c2c .sub, .content2main1 .c2c .beth {
+  font-size: 15px;
+  color: white;
+  font-weight: 650;
+  border: none;
+  background-color: rgb(116, 83, 252);
+  padding: 15px;
+  border-radius: 5px;
+  transition: all 0.2s linear;
+}
+.content2main1 .c2c .sub:hover, .content2main1 .c2c .beth:hover {
+  background-color: white;
+  color: rgb(116, 83, 252);
+}
+.content2main1 .c2c .beth {
+  background-color: transparent;
+  border: 1px solid rgb(116, 83, 252);
+}
+.content2main1 .c2c h4 {
+  color: rgb(182, 182, 182);
+}
+
+.wallet {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+.wallet input {
+  background-color: white;
+  border: none;
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.wallet button {
+  background-color: rgb(116, 83, 252);
+  color: white;
+  padding: 11px;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.2s;
+}
+.wallet button:hover {
+  background-color: white;
+  color: rgb(116, 83, 252);
+}
+
+footer {
+  background-color: rgb(116, 83, 252);
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+footer .foot1 {
+  text-align: center;
+}
+footer img {
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+}
+footer p {
+  color: white;
+  font-size: 20px;
+}
+footer h4 {
+  font-size: 40px;
+  color: rgb(42, 39, 62);
+}
+footer i {
+  border-radius: 100%;
+  font-size: 40px;
+  color: rgb(42, 39, 62);
+  transition: all 0.1s linear;
+}
+footer .footp {
+  border-radius: 50px;
+  padding: 10px;
+  font-size: 20px;
+}
+footer .footcopy {
+  color: rgb(255, 255, 255);
+  background-color: rgba(42, 39, 62, 0.41);
+  border-radius: 50px;
+  padding: 10px;
+}
+footer .contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+footer .contact .contact2 {
+  color: rgb(42, 39, 62);
+}
+
+.contact i:hover {
+  color: white;
+}
+
+#click {
+  display: none;
+}
+
+@media screen and (max-width: 845px) {
+  nav label {
+    display: block;
+  }
+  nav ul {
+    flex-direction: column;
+    position: absolute;
+    top: 100px;
+    background-color: #ffffff;
+    width: 95%;
+    display: none;
+    text-align: center;
+  }
+  nav ul li {
+    padding: 10px;
+  }
+  nav ul li a {
+    color: rgb(42, 39, 62);
+  }
+  #click:checked ~ .nav1 nav ul {
+    display: block;
+  }
+}
+@media screen and (max-width: 605px) {
+  .c2img img {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 845px) {
+  .wallet {
+    justify-content: center;
+    gap: 50px;
+  }
+}/*# sourceMappingURL=cart.css.map */

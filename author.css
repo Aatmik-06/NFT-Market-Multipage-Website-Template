@@ -1,0 +1,350 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.hero {
+  background-image: url(heading-bg.jpg);
+  width: 100%;
+  padding-bottom: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 35px;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+header nav {
+  background-color: white;
+  padding: 15px;
+  width: 96%;
+  border-radius: 100px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 100px;
+  position: fixed;
+}
+
+nav label {
+  display: none;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  gap: 25px;
+}
+
+header a {
+  color: rgb(51, 51, 51);
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 8px;
+  font-weight: 600;
+  transition: all 0.2s linear;
+}
+
+header a:hover {
+  background-color: rgb(116, 83, 252);
+  border-radius: 40px;
+  color: white;
+}
+
+.content1 {
+  text-align: center;
+  padding-top: 230px;
+  color: white;
+}
+.content1 h5 {
+  font-size: 19px;
+  font-weight: 400;
+}
+.content1 h6 {
+  font-size: 16px;
+  font-weight: 400;
+}
+.content1 h6 span {
+  color: rgb(116, 83, 252);
+}
+.content1 h1 {
+  font-size: 50px;
+}
+.content1 button {
+  padding: 18px;
+  font-size: 17px;
+  border: none;
+  border-radius: 50px;
+  background-color: rgb(116, 83, 252);
+  transition: all 0.2s linear;
+}
+.content1 button a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+.content1 button:hover {
+  background-color: white;
+}
+.content1 button:hover a {
+  color: rgb(116, 83, 252);
+}
+.content1 .b2 {
+  background-color: transparent;
+  border: 1px solid rgb(116, 83, 252);
+  transition: all 0.2s linear;
+}
+.content1 .b2:hover {
+  background-color: rgb(116, 83, 252);
+}
+.content1 .b2:hover a {
+  color: white;
+}
+
+.content2 {
+  background-image: url(dark-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: 17px;
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+.content2 .content2head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.content2 .content2head .melanie {
+  display: flex;
+  gap: 20px;
+}
+.content2 .content2head .melanie img {
+  height: 180px;
+  width: 180px;
+  border-radius: 100%;
+}
+.content2 .content2head .melanie div {
+  align-content: center;
+}
+.content2 .content2head .melanie a {
+  color: rgb(116, 83, 252);
+}
+.content2 .content2head .follows {
+  background-color: rgb(40, 43, 47);
+  border-radius: 20px;
+  padding: 20px;
+  border: 1px solid rgb(92, 92, 92);
+}
+.content2 .content2head .icons {
+  display: flex;
+  color: rgb(116, 83, 252);
+  gap: 25px;
+}
+.content2 .content2head .icons span {
+  color: white;
+}
+.content2 .content2head .buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+.content2 .content2head .buttons h2 {
+  font-size: 24px;
+}
+.content2 .content2head .buttons button {
+  padding: 15px;
+  background-color: rgb(116, 83, 252);
+  color: white;
+  border-radius: 50px;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  transition: all 0.2s linear;
+}
+.content2 .content2head .buttons button:hover {
+  background-color: white;
+  color: rgb(116, 83, 252);
+}
+
+.content2items {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.c2heads h2 {
+  color: rgb(116, 83, 252);
+}
+.c2heads span {
+  color: rgb(116, 83, 252);
+}
+
+.c2items {
+  padding-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.c2i1 {
+  padding: 20px;
+  background-color: rgb(40, 43, 47);
+  border: 1px solid rgb(51, 51, 51);
+  border-radius: 20px;
+}
+.c2i1 img {
+  border-radius: 20px;
+}
+.c2i1 button {
+  padding: 13px;
+  border: none;
+  font-size: 15px;
+  border-radius: 50px;
+  background-color: rgb(116, 83, 252);
+  color: white;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+.c2i1 button a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+.c2i1 button:hover {
+  background-color: white;
+}
+.c2i1 button:hover a {
+  color: rgb(116, 83, 252);
+}
+
+.content3 {
+  background-image: url(main-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.content3 .contentheads {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+.content3 .contentheads button {
+  height: 40px;
+  background-color: rgb(116, 83, 252);
+  border-radius: 50px;
+  border: none;
+}
+.content3 .contentheads button a {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 35px;
+  text-decoration: none;
+  color: white;
+}
+
+.contentimg {
+  padding-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.contentimg div {
+  width: 20%;
+}
+.contentimg img {
+  padding: 15px;
+  border-radius: 100%;
+  background-color: white;
+}
+
+footer {
+  background-color: rgb(116, 83, 252);
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+footer .foot1 {
+  text-align: center;
+}
+footer img {
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+}
+footer p {
+  color: white;
+  font-size: 20px;
+}
+footer h4 {
+  font-size: 40px;
+  color: rgb(42, 39, 62);
+}
+footer i {
+  border-radius: 100%;
+  font-size: 40px;
+  color: rgb(42, 39, 62);
+  transition: all 0.1s linear;
+}
+footer .footp {
+  border-radius: 50px;
+  padding: 10px;
+  font-size: 20px;
+}
+footer .footcopy {
+  color: rgb(255, 255, 255);
+  background-color: rgba(42, 39, 62, 0.41);
+  border-radius: 50px;
+  padding: 10px;
+}
+footer .contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+footer .contact .contact2 {
+  color: rgb(42, 39, 62);
+}
+
+.contact i:hover {
+  color: white;
+}
+
+#click {
+  display: none;
+}
+
+@media screen and (max-width: 845px) {
+  nav label {
+    display: block;
+  }
+  nav ul {
+    flex-direction: column;
+    position: absolute;
+    top: 100px;
+    background-color: #ffffff;
+    width: 95%;
+    display: none;
+    text-align: center;
+  }
+  nav ul li {
+    padding: 10px;
+  }
+  nav ul li a {
+    color: rgb(42, 39, 62);
+  }
+  #click:checked ~ .nav1 nav ul {
+    display: block;
+  }
+}
+@media screen and (max-width: 655px) {
+  .contentimg div {
+    text-align: center;
+    width: 100%;
+  }
+}/*# sourceMappingURL=author.css.map */

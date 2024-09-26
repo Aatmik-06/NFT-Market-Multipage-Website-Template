@@ -1,0 +1,480 @@
+$fontcolor:white;
+$color:rgb(116,83,252);
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hero{
+    background-image: url(banner-bg.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 35px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+header nav{
+    background-color: white;
+    padding: 15px;
+    width: 96%;
+    border-radius: 100px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 100px;
+    position: fixed;
+}
+nav label{
+    display: none;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+}
+header a{
+  color: rgb(51,51,51);
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 8px;
+  font-weight: 600;
+  transition: all 0.2s linear;
+}
+header a:hover{
+    background-color: $color;
+    border-radius: 40px;
+    color: $fontcolor;
+}
+.content1{
+    display: flex;
+    gap: 10%;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding-top: 230px;
+    padding-bottom: 150px;
+    color:$fontcolor;
+    justify-content: space-between;
+}
+.content1 h1{
+    font-size: 50px;
+}
+.content1 h4{
+    font-size: 30px;
+    font-weight: 600;
+}
+.content1 p{
+    font-size: 20px;
+}
+.b1{
+    background-color: transparent;
+    border: solid 2px $color;
+    border-radius: 100px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: all 0.2s linear;
+    a{
+        color:$fontcolor;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 16px;
+    }
+}
+.b1:hover{
+    background-color: $color;
+}
+.b2{
+    @extend .b1;
+    background-color: $color;
+    border: none;
+    transition: all 0.2s linear;
+}
+.b2:hover{
+    background-color: white;
+    a{
+        color: $color;
+    }
+}
+.c2 i{ 
+    background-color: white;
+    padding: 16px;
+    border-radius: 100%;
+    color: $color;
+    font-size: 14px;
+}
+.c2i{
+    display: flex;
+   justify-content: center;
+}
+.cs img{
+    position: absolute;
+    height: 450px;
+}
+.content2{
+    padding-top: 80px;
+    background-image: url(dark-bg.jpg);
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content2h1{
+    text-align: center;
+    color: $fontcolor;
+    span{
+        color: $color;
+    }
+    h2{
+        color: $color;
+    }
+}
+.content2h1items{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    div {
+        padding: 30px;
+        background-color: rgb(40,43,47);
+        border: 1px solid rgb(89, 89, 89);
+        border-radius: 15px;
+        text-align: center;
+    }
+    img{
+     padding: 200px;
+    z-index: 1;
+    padding: 10px;
+    background-color: white;
+    border-radius: 100%;
+    }
+    h2{
+        color: $fontcolor;
+    }
+    padding-bottom: 100px;
+}
+.content2h2{
+    @extend .content2h1
+}
+.content2h2items
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 130px;
+    img{
+        border-radius: 50px;
+        width: 100%;
+    }
+    div{
+        font-size: 18px;
+        border: 1px solid white;
+        padding: 20px;
+        background-color: rgb(40,43,47);
+        border-radius: 50px;
+        color: white;
+        text-align: center;
+    }
+    button{
+        border: none;
+        font-weight: 600;
+        font-size: 15px;
+        background-color: $color;
+        padding: 15px;
+        border-radius: 50px;
+        color: white;
+        transition: all 0.2s linear;
+        a{  
+            text-decoration: none;
+            color: white;
+        }
+        a:hover{
+            color: $color;
+        }
+    }
+    button:hover{
+        background-color: white;
+    }
+}
+.content3{
+    background-image: url(main-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .contentheads{
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        button{
+            height: 40px;
+            background-color: $color;
+            border-radius: 50px;
+            border: none;
+            a{  
+                font-size: 20px;
+                font-weight: 600;
+                padding: 35px;
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+}
+.contentimg
+{   padding-top: 100px;
+    display: flex; 
+    justify-content: space-around;  
+    div{
+        width: 20%;
+    }
+    img{
+        padding: 15px;
+        border-radius: 100%;
+        background-color: white;
+    }
+}
+.content4{
+    background-image: url(dark-bg.jpg);
+    color: $fontcolor;
+    padding-top: 100px;
+}
+.content4head{
+    display: flex;
+    justify-content: space-around;
+     span{
+        color: $color;
+    }
+    h2{
+        color: $color;
+    }
+    .b1{
+        background-color: $color;
+    }
+    button{
+        background-color: transparent;
+        padding: 12px;
+        color: $fontcolor;
+        border-radius: 50px;
+        text-decoration: none;
+        border: none;
+        font-size: 15px;
+        font-weight: 600;
+        transition: all 0.2s linear;
+    }
+    button:hover{
+        background-color: $color;
+    }
+}
+.content4second{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 130px;
+    gap: 20px;
+    justify-content: center;
+    
+    
+    .d1{ 
+        img{
+            border-radius: 20px;
+        }
+        border: 1px solid rgb(89, 89, 89);
+        border-radius: 20px;
+        padding: 20px;
+        display: flex;
+        gap: 20px;
+        font-weight: 100;
+        justify-content: center;
+        justify-content: space-evenly;
+        background-color: rgb(40,43,47);
+    
+        height: 100%;
+        font-size: 16px;
+    
+        h3{
+            font-size: 20px;
+        }
+        a{
+            color: $color;
+            font-weight: 600;
+        }
+    }
+}
+footer{
+    background-color: $color;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    .foot1{
+        text-align: center;
+    }
+    img{
+        background-color: white;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    p{
+        color: $fontcolor;
+        font-size: 20px;
+    }
+    h4{
+        font-size: 40px;
+        color: rgb(42,39,62);
+    }
+    i{ 
+        border-radius: 100%;
+        font-size: 40px;
+        color: rgb(42,39,62);
+        transition: all 0.1s linear;
+    }
+    .footp{
+        border-radius: 50px;
+        padding: 10px;
+        font-size: 20px;
+        
+    }
+    .footcopy{
+        color: rgb(255, 255, 255);
+        background-color: rgba(42, 39, 62, 0.41);
+        border-radius: 50px;
+        padding: 10px;
+    }
+    .contact
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-evenly;
+        
+    .contact2{
+        color: rgb(42,39,62);
+    }
+    }
+}
+.contact i:hover{
+    color:$fontcolor ;
+}
+#click {
+    display: none;
+  }
+  @media screen and (max-width: 1150px)  {
+       .content4second{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        .d1{
+            width: 100%;
+        }
+       }
+  }
+    
+
+  
+@media screen and (max-width: 845px)  {
+    nav label {
+        display: block;
+      }
+      nav ul {
+        flex-direction: column;
+        position: absolute;
+        top: 100px;
+        background-color: #ffffff;
+        width: 95%;
+        display: none;
+        text-align: center;
+      }
+      nav ul li {
+        padding: 10px;
+      }
+      nav ul li a {
+        color: rgb(42,39,62);
+      }
+      #click:checked ~ .nav1 nav ul{
+        display: block;
+      }
+    .content2h1items{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+}
+@media screen and (max-width:700px){
+    .contentimg{
+        display: flex;
+        flex-direction: column;
+        div{
+            width: 100%;
+            text-align: center;
+        }
+    }
+}
+@media screen and (max-width:500px){
+      .d1{
+        display: flex;
+        flex-direction: column;
+      }
+}
+@media screen and (max-width:768px){
+    .content1{
+        display: grid;
+        grid-template-columns: 1fr;
+        img{
+            width: 100%;
+        }
+    }
+    .content4second{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .content2h1items{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+    
+}
+@media screen and (max-width:425px){
+    .content1{
+        display: flex;
+        flex-wrap: wrap;
+        img{
+            width:100%;
+        }
+    }
+    .content2h1items{
+        display: grid;
+        grid-template-columns: 1fr ;
+
+    }
+    .contentimg{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        div{
+            width: 100%;
+            text-align: center;
+        }
+        
+    }
+    .d1{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact{
+        width: fit-content;
+        gap: none;
+    }
+    
+}
+
+
+
+

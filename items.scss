@@ -1,0 +1,367 @@
+$fontcolor:white;
+$color:rgb(116,83,252);
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hero{
+    background-image: url(heading-bg.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 35px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 50px;
+}
+header nav{
+    background-color: white;
+    padding: 15px;
+    width: 96%;
+    border-radius: 100px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 100px;
+    position: fixed;
+}
+nav label{
+    display: none;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+}
+header a{
+  color: rgb(51,51,51);
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 8px;
+  font-weight: 600;
+  transition: all 0.2s linear;
+}
+header a:hover{
+    background-color: $color;
+    border-radius: 40px;
+    color: $fontcolor;
+}
+.content1{
+    text-align: center;
+    padding-top: 230px;
+    color: $fontcolor;
+    h5{
+        font-size: 19px;
+        font-weight: 400;
+    }
+    h6{
+        font-size: 16px;
+        font-weight: 400;
+        span{
+            color: $color;
+        }
+    }
+    h1{
+        font-size: 50px;
+    }
+    button{
+        padding: 18px;
+        font-size: 17px;
+        border: none;
+        border-radius: 50px;
+        background-color: rgb(116,83,252);
+        transition: all 0.2s linear;
+        a{
+            text-decoration: none;
+            color: $fontcolor;
+            font-weight: 500;
+        }
+    }
+    button:hover{
+        background-color: white;
+        a{
+            color: $color;
+        }
+
+    }
+    .b2{
+        background-color: transparent;
+        border: 1px solid rgb(116,83,252);
+        transition: all 0.2s linear;
+    }
+    .b2:hover{
+        background-color: rgb(116,83,252);
+        a{
+            color: $fontcolor;
+        }
+    }
+}
+.content2{
+    background-image: url(dark-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $fontcolor;
+    text-align: center;
+    font-size: 17px;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    
+    h2 {
+        color: $color;
+    }
+    span{
+        color: $color;
+    }
+    .content2main1{
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 80px;
+        justify-content: center;
+        justify-content: space-evenly;
+        padding-bottom: 120px;
+        
+        .c2img img{ 
+            border-radius: 20px;
+            
+        }
+        .c2c{
+            width: 500px;
+            text-align: start;
+            img{
+                border-radius: 100%;
+
+            }
+            h4 a{
+                color: $color;
+            }
+            h3{
+                font-size: 25px;
+            }
+            .sub{
+                font-size: 16px;
+                color: $fontcolor;
+                font-weight: 650;
+                border: none;
+                background-color: $color;
+                padding: 15px;
+                border-radius: 30px;
+                transition: all 0.2s linear;
+            }
+            .sub:hover{
+                background-color: $fontcolor;
+                color: $color
+            }
+            .beth{
+                @extend.sub;
+                background-color: transparent;
+                border: 1px solid rgb(116,83,252);
+           }
+            h4{
+                color: rgb(182, 182, 182);
+            }
+        }
+    }
+}
+.contentmain2head{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+    button{
+        padding: 15px;
+        font-size: 20px;
+        border: none;
+        font-weight: 700;
+        border-radius: 50px;
+        color: $fontcolor;
+        background-color: $color;
+    }
+    select{
+        background-color: transparent;
+        color: $fontcolor;
+        border: 0px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+}
+.authormain{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    span{
+        color: $color;
+    }
+    a{
+        color: $color;
+    }
+
+}
+.author1{
+    display: flex;
+    gap: 20px;
+    background-color: rgb(40,43,47);
+    padding: 15px;
+    border-radius: 20px;
+    width: 400px;
+    img{
+        border-radius: 20px;
+    }
+}
+
+.content3{
+    background-image: url(main-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .contentheads{
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        button{
+            height: 40px;
+            background-color: $color;
+            border-radius: 50px;
+            border: none;
+            a{  
+                font-size: 20px;
+                font-weight: 600;
+                padding: 35px;
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+}
+.contentimg
+{   padding-top: 100px;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;  
+    div{
+        width: 20%;
+    }
+    img{
+        padding: 15px;
+        border-radius: 100%;
+        background-color: white;
+    }
+}
+
+
+
+
+
+footer{
+    background-color: $color;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    .foot1{
+        text-align: center;
+    }
+    img{
+        background-color: white;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    p{
+        color: $fontcolor;
+        font-size: 20px;
+    }
+    h4{
+        font-size: 40px;
+        color: rgb(42,39,62);
+    }
+    i{ 
+        border-radius: 100%;
+        font-size: 40px;
+        color: rgb(42,39,62);
+        transition: all 0.1s linear;
+    }
+    .footp{
+        border-radius: 50px;
+        padding: 10px;
+        font-size: 20px;
+        
+    }
+    .footcopy{
+        color: rgb(255, 255, 255);
+        background-color: rgba(42, 39, 62, 0.41);
+        border-radius: 50px;
+        padding: 10px;
+    }
+    .contact
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-evenly;
+        
+    .contact2{
+        color: rgb(42,39,62);
+    }
+    }
+}
+.contact i:hover{
+    color:$fontcolor ;
+}
+#click {
+    display: none;
+  }
+
+
+  @media screen and (max-width: 845px)  {
+    nav label {
+        display: block;
+      }
+      nav ul {
+        flex-direction: column;
+        position: absolute;
+        top: 100px;
+        background-color: #ffffff;
+        width: 95%;
+        display: none;
+        text-align: center;
+      }
+      nav ul li {
+        padding: 10px;
+      }
+      nav ul li a {
+        color: rgb(42,39,62);
+      }
+      #click:checked ~ .nav1 nav ul{
+        display: block;
+      }
+    }
+
+    @media screen and (max-width: 655px)  {
+    .c2img img{
+        height: 100%;
+        width: 100%;
+    }
+    .content2main1{
+        .c2c{
+        width: 600px;
+        width: 70%;
+    }
+    }
+    .contentimg {
+        div{
+            text-align: center;
+            width: 100%;
+        }
+      }
+    }
+    
+
+
+
+
